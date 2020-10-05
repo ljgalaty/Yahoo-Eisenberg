@@ -1,0 +1,108 @@
+* {
+    font-family: 'Raleway', sans-serif; 
+    /* margin: 0;
+    padding: 0; */
+    
+  }
+  
+  /* This is the first purple navigation bar container */
+  #top-nav {
+    background-color: purple;
+    /* margin: 0;
+    padding: 0; */
+  }
+  
+  #yahoo-search-bar {}
+  
+  #profile-shortcut {}
+  
+  /* This is the eisenberg ad container */
+  
+  .eisenberg-ad {
+    width: 100vw;
+    background-image: url("eisenberg-ad.png");
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* #eisenberg-ad p {
+    display: flex;
+    justify-content: right;
+  } */
+  
+  #now-you-see-me {
+    width: 20em;
+    background-color: white;
+    display: flex;
+    
+  }
+  
+  .icon-nav ul {
+    list-style-type: none;
+    width: 1.5em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* This is the second purple navigation bar container*/
+  
+  #second-nav {
+    display: flex;
+    background-color: #800080;
+    color: white;
+  }
+  
+  #nav-of-words {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #location-and-temp {
+    font-size: 15px;
+  } 
+  /* The section with the news articles */
+  
+  .news {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+    
+  }
+  
+  .news ul {
+    list-style-type: none;
+  }
+  
+  #logos {
+    display: flex;
+  }
+  
+  div aside {
+    margin: 0 25px 25px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .scores {
+    background-color: purple;
+  }
+  
+  aside .scores p {
+    background-color: purple;
+  }
+  
+  .stocks {
+    background-color: #CE9DD5; 
+  }
+  
+  /* The section with the London Eye */
+  
+  .ferris-wheel {
+      background-image: url("london-eye.png");
+      background-repeat: no-repeat;
+  }

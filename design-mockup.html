@@ -5,76 +5,93 @@
     <meta name="viewport" content="width=device-width">
     <title>Yahoo</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65a0390c48.js" crossorigin="anonymous"></script>
   </head>
+  
+
   <header>
-      <nav>
-        <form id="yahoo-search-bar">
-        </form>
+      <nav class="nav" id="top-nav">
+        <input id="yahoo-search-bar" type="text"></input>
         <a id="profile-shortcut">
         </a>
       </nav>
-      <div id="eisenberg-ad">
-        <nav id="icon-nav">
-            <ul>
-             <li id="envelope"><a href="#" target="_blank"></a></li>
-             <li id="calendar"><a href="#" target="_blank"></a></li>
-             <li id="stocks"><a href="#" target="_blank"></a></li>
-             <li id="basketball"><a href="#" target="_blank"></a></li>
-             <li id="film-reel"><a href="#"target="_blank"></a></li>
-             <li id="star-exclamation"><a href="#" target="_blank"></a></li>
-             <li id="info"><a href="#" target="_blank"></a></li>
-             <li id="car"><a href="#" target="_blank"></a></li>
-             <li id="shopping-bag"><a href="#" target="_blank"></a></li>
-             <li id="airplane"><a href="#" target="_blank"></a></li>
-             <li id="hearts"><a href="#" target="_blank"></a></li>
-             <li id="purse"><a href="#" target="_blank"></a></li>
-            </ul>
-        </nav>
-        <article id="now-you-see-me">
-            <h3>Now You See Me: Top Grosser</h3>
-                <h5>Hit film starring Jesse Eisenberg rakes in nearly $300MM during opening wekend</h5>
-                    <a href="#" target="_blank">Read Full Story</a>
-        </article>
-      </div>
-      <div id="2nd-nav">
-        <ul id="nav-of-words">
-            <li id="all-stories">All Stories</li>
-            <li id="news">News</li>
-            <li id="local">Local</li>
-            <li id="entertainment">Entertainment</li>
-            <li id="sports">Sports</li>
-            <li id="more">More</li>
-        </ul>
-        <span id="location-and-temp">Baltimore, MD 83°</span>
-      </div>
   </header>
+  
+
   <body>
-    <div id="news">
-        <ul id="article-list">
-            <li id="Oklahoma"><a href="#" target="_blank">Oklahoma turns to mammoth task of cleanup after tornado</a>- Los Angeles Times - 1 hour ago</li>
-            <li id="Obama"><a href="#" target="_blank">Obama, in a Shift, to Limit Targets of Drone Strikes</a>- New York Times - 1 hour ago</li>
-            <li id="Major-Nelson"><a href="#" target="_blank">Major Nelson teases E3 for Xbox One news</a>- PC World - 4 hours ago</li>
-            <li id="US-Treasuries"><a href="#" target="_blank">US Treasuries, Asian Bonds Fall on Bets Fed to Taper Stimulus</a>- Bloomberg - 5 hours ago</li>
-            <li id="Merkel"><a href="#" target="_blank">Merkel tops Forbes power women's list again</a>- Newsday - 5 hours ago</li>
+    
+
+    <div class="eisenberg-ad">
+      <nav class="icon-nav">
+        <ul>
+          <li style="color:#800080"><i class="fas fa-envelope"></i></li>
+          <li style="color:#008080"><i class="fas fa-calendar-times"></i></li>
+          <li style="color:#00CCFF"><i class="fas fa-chart-line"></i></li>
+          <li style="color:#FFB347"><i class="fas fa-basketball-ball"></i></li>
+          <li style="color:#7575CF"><i class="fas fa-film"></i></li>
+          <li style="color:#FF0080"><i class="fas fa-star"></i></li>
+          <li style="color:#CC5500"><i class="fas fa-info"></i></li>
+          <li style="color:#00008B"><i class="fas fa-car"></i></li>
+          <li style="color:#FFA500"><i class="fas fa-shopping-bag"></i></li>
+          <li style="color:#00CCFF"><i class="fas fa-plane"></i></li>
+          <li style="color:#FF0000"><i class="fas fa-heart"></i></li>
+          <li style="color:#3895D3"><i class="fas fa-briefcase"></i></li>
         </ul>
-        <aside>
-            <h4>Scores</h4>
-                <p>MLB COL: 5 - SF: 0</p>
-                <p>NBA IND: 97 - MIA: 93</p>
-                <p>NHL OTT: 2 - PITT: 5</p> 
-            <h4>Stocks</h4>
-                <p>AAPL: 443.55   -5.30</p>
-                <p>YHOO: 52.34   -1.45</p>
-        </aside>
+      </nav>
+      <section id="now-you-see-me">
+        <p>Now You See Me: Top Grosser</p>
+          <p>Hit film starring Jesse Eisenberg rakes in nearly $300MM during opening wekend</p>
+            <a href="#">Read Full Story</a>
+      </section>
     </div>
-    <div id="ferris-wheel">
-        <h2>Yahoo! Acquires Tumblr.</h2>
-            <p>Yahoo Inc. has agreed to pay $1.1 billion for Tumblr, 
-                a six-year-old company with more than 100 million 
-                users but very little revenue, a deal that highlights 
-                the shifting balance of power in the technology business</p>
-                <input type="button" target="_blank">Learn More
+   
+
+    <div class="nav" id="second-nav">
+      <ul class="nav" id="nav-of-words">
+        <li class="listings">All Stories</li>
+        <li class="listings">News</li>
+        <li class="listings">Local</li>
+        <li class="listings">Entertainment</li>
+        <li class="listings">Sports</li>
+        <li class="listings">More</li>
+      </ul>
+      
     </div>
+   
+   
+    <div class="news" id="news">
+      <img src="tumblr-flickr.png" alt="tumblr and flickr logos" height="50px" width="100px" id="logos">
+      <ul id="article-list">
+        <li>Oklahoma turns to mammoth task of cleanup after tornado <span style="color:#800080">- Los Angeles Times - 1 hour ago</span></li>
+        <li>Obama, in a Shift, to Limit Targets of Drone Strikes <span style="color:#800080">- New York Times - 1 hour ago</span></li>
+        <li>Major Nelson teases E3 for Xbox One news - PC World <span style="color:#800080">- 4 hours ago</span></li>
+        <li>US Treasuries, Asian Bonds Fall on Bets Fed to Taper Stimulus <span style="color:#800080">- Bloomberg - 5 hours ago</span></li>
+        <li>Merkel tops Forbes power women's list again - Newsday <span style="color:#800080">- 5 hours ago</span></li>
+      </ul>
+      <aside>
+        <h4 class="scores">Scores</h4>
+          <p>MLB COL: 5 - SF: 0</p>
+          <p>NBA IND: 97 - MIA: 93</p>
+          <p>NHL OTT: 2 - PITT: 5</p> 
+        <h4 class="stocks">Stocks</h4>
+          <p>AAPL: 443.55   -5.30</p>
+          <p>YHOO: 52.34   -1.45</p>
+      </aside>
+    </div>
+    
+    
+    <div class="ferris-wheel">
+      <h2>Yahoo! Acquires Tumblr.</h2>
+        <p>Yahoo Inc. has agreed to pay $1.1 billion for Tumblr,
+            a six-year-old company with more than 100 million 
+            users but very little revenue, a deal that highlights the shifting balance of power in the technology business</p>
+        <input type="button">Learn More</input>
+    </div>
+    
+    
     <script src="script.js"></script>
+  
+  
   </body>
 </html>
